@@ -10,7 +10,7 @@ import { tr, translateText } from './lib/_checkLang.js';
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [['5214774444444', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], ['573226873710'], ['593968585383'], ['17866277409'], ['5217411126626'], ['5213347320542'], ['595986505424'], ['5219999699999'], ['5217441452981'], ['523482800300'], ['573007487856'], ['5217773342977'], ['573008499604'], ['5492266613038']]
+global.owner = [['18293142989', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], ['18293142989'], ['18293142989'], ['18293142989'], ['5217411126626'], ['18293142989'], ['18293142989'], ['18293142989'], ['18293142989'], ['18293142989'], ['18293142989'], ['18293142989'], ['18293142989'], ['18293142989']]
 global.mods = []
 global.prems = []
 
@@ -43,62 +43,62 @@ global.moment = moment
 
 //------------------------[ Stickers ]-----------------------------
 
-global.packname = 'LoliBot'
-global.author = 'elrebelde21'
+global.packname = '𝐌𝐚𝐤𝐢𝐦𝐚'
+global.author = '𝐅𝐞𝐥𝐢𝐱 𝐌𝐚𝐧𝐮𝐞𝐥'
 
 //------------[ Versión | Nombre | cuentas ]------------
 
-global.wm = '𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿' 
+global.wm = '𝗠𝗮𝗸𝗶𝗺𝗮 𝗕𝗼𝘁 𝗠𝗗' 
 global.vs = '1.9.8'
-global.yt = 'https://www.youtube.com/@elrebelde.21'
-global.tiktok = 'https://www.tiktok.com/@elrebelde.21'
-global.md = 'https://github.com/elrebelde21/LoliBot-MD'
-global.fb = 'https://www.facebook.com/elrebelde21'
-global.face = 'https://www.facebook.com/groups/872989990425789/'
+global.yt = 'https://www.youtube.com/frasesbebor@gmail.com'
+global.tiktok = 'https://www.tiktok.com/Feli'
+global.md = 'https://github.com/mantis-has/Makima'
+global.fb = 'https://www.facebook.com/akinoaynadaqueteimporte'
+global.face = 'https://www.facebook.com/groups/872989990425710/'
 
-global.nna = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A' //Update
-global.nna2 = 'https://whatsapp.com/channel/0029Vas9jIPFsn0fgdNCKO0V' //LoliBot update
-global.nnaa = 'https://whatsapp.com/channel/0029Vas9jIPFsn0fgdNCKO0V' //LoliBot - Test
-global.nn = 'https://chat.whatsapp.com/HNDVUxHphPzG3cJHIwCaX5' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/KDBt6S54riRCIpSZspkxhg' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/GXNXKWSEckU1j1c7sItTxK' //Grupo del Colaboracion
-global.nnntt = 'https://chat.whatsapp.com/Em4Byf4w5VgHObPvZQlfnM' //enlace lolibot
-global.nnnttt = 'https://chat.whatsapp.com/J5hQvECqR4W6uTT84uiSBx' //A.T.T.M
-global.nnntttt = 'https://chat.whatsapp.com/ILAHJeZsHh973tQ96i2aqS' //Grupo ayuda sobre el bot
-global.bot = 'wa.me/5213121663423'
+global.nna = 'https://whatsapp.com/channel/0029Vb6FW3S2Jl8GHcoBTB0w' //Update
+global.nna2 = 'https://whatsapp.com/channel/0029Vb6FW3S2Jl8GHcoBTB0w' //update
+global.nnaa = 'https://whatsapp.com/channel/0029Vb6Gkkr72WU3oxtrx81o' //Test
+global.nn = 'https://chat.whatsapp.com/GZdFpo11kIQ54pa1lgUiQ9?mode=r_c' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com/K0DIkrutOQI6If1kdZ4l9D?mode=r_c' //Grupo de denji
+global.nnnt = 'https://chat.whatsapp.com/BVDsynSLZd43wqu8cXnLsU?mode=r_c' //Grupo del Colaboracion
+global.nnntt = 'https://chat.whatsapp.com/HpQ5moxR8NOJSZmF0FngeD?mode=r_c' //Socializar
+global.nnnttt = 'https://chat.whatsapp.com/KoJjHo6o3Ew7P5qkjaIh0r?mode=r_c' //A.T.T.M
+global.nnntttt = 'https://chat.whatsapp.com/E9pDOR55DHE9vQE9KXZk3P?mode=r_c' //Grupo ayuda sobre el bot
+global.bot = 'wa.me/18293142989'
 global.redes = [nna, nna2, yt, nn, nnn, nnnt, nnntt, nnnttt, nnntttt, md, tiktok, fb, face]
 
 //------------------------[ Info | Datos ]---------------------------
 
-global.wait = 'Calmao pa estoy procesando😎\n\n> *❗Por favor no hacer spam👏❗*'
+global.wait = 'Estoy procesando. Porfavor no agas spam.'
 global.waitt = '*⌛ _Cargando..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _Cargando..._ ▬▬▬▬▬▬▭*'
 global.waittttt = '*⌛ _Cargando..._ ▬▬▬▬▬▬▬*'
-global.rg = '『✅ 𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊𝙎 ✅』\n\n'
-global.ag = '『⚠️ 𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 ⚠️』\n\n'
-global.iig = '『❕ 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 』\n\n'
-global.fg = '『❌ 𝙀𝙍𝙍𝙊𝙍 ❌』\n\n'
-global.mg = '『❗️ 𝙇𝙊 𝙐𝙎𝙊 𝙈𝘼𝙇❗』\n\n'
-global.eeg = '『📩 𝙍𝙀𝙋𝙊𝙍𝙏𝙀 📩』\n\n'
-global.eg = '『💚 𝙀𝙓𝙄𝙏𝙊𝙎 💚』\n\n'
+global.rg = '『 Resultados 』\n\n'
+global.ag = '『 Advertencia 』\n\n'
+global.iig = '『 Información 』\n\n'
+global.fg = '『 Error 』\n\n'
+global.mg = '『 Formato incorrecto 』\n\n'
+global.eeg = '『 Reporte 』\n\n'
+global.eg = '『 Éxito 』\n\n'
 
 //-------------------------[ IMAGEN ]------------------------------
-//global.img = "https://qu.ax/Zgqq.jpg"
-global.img1 = 'https://qu.ax/hNJk.jpg'
-global.img2 = 'https://qu.ax/jzhN.jpg'
+//global.img = "https://qu.ax/caXVr.jpg"
+global.img1 = 'https://qu.ax/iQNpS.jpg'
+global.img2 = 'https://qu.ax/gYzBQ.jpg'
 
 global.imagen = fs.readFileSync('./Menu2.jpg')
 global.imagen1 = fs.readFileSync('./media/Menu1.jpg')
 global.imagen2 = fs.readFileSync('./media/Menu2.jpg')
 global.imagen3 = fs.readFileSync('./media/Menu3.jpg')
 global.imagen4 = fs.readFileSync('./media/Menu4.jpg')
-global.imagen5 = 'https://qu.ax/rULv.jpg'
-global.imagen6 = 'https://qu.ax/CySs.jpg'
-global.menu18 = 'https://qu.ax/MOgO.jpg'
-global.vid1 = 'https://qu.ax/dcAc.mp4'
+global.imagen5 = 'https://qu.ax/caXVr.jpg'
+global.imagen6 = 'https://qu.ax/iQNpS.jpg'
+global.menu18 = 'https://qu.ax/gYzBQ.jpg'
+global.vid1 = 'https://qu.ax/gYzBQ.jpg'
 global.img = [imagen, imagen1, imagen2, imagen3, imagen4]
-global.imageUrl = ["https://qu.ax/HJnWj.jpg", "https://qu.ax/ehPzQ.jpg", "https://qu.ax/ilfbC.jpg"]
+global.imageUrl = ["https://qu.ax/gYzBQ.jpg", "https://qu.ax/iQNpS.jpg", "https://qu.ax/caXVr.jpg"]
 
 //----------------------------[ NIVELES | RPG ]---------------------------------
 
@@ -108,9 +108,9 @@ global.maxwarn = '4' // máxima advertencias
 //---------------[ IDs de canales ]----------------
 
 global.ch = {
-ch1: '120363349916000764@newsletter', 
-ch2: '120363160031023229@newsletter',
-ch3: '120363301598733462@newsletter',
+ch1: '120363420059734524@newsletter', 
+ch2: '120363402078116190@newsletter',
+ch3: '120363422990331018@newsletter',
 }
 
 //----------------------------------------------------
