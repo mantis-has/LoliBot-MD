@@ -6,8 +6,8 @@ export async function before(m, { conn, text }) {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
 let pp = await this.profilePictureUrl(who, 'image').catch(_ => "https://telegra.ph/file/33bed21a0eaa789852c30.jpg")
 		
-global.canalIdGB = ["120363160031023229@newsletter", "120363355261011910@newsletter"]
-global.canalNombreGB = ["INFINITY-WA 💫", "LoliBot ✨"]
+global.canalIdGB = ["120363420059734524@newsletter", "120363402078116190@newsletter"]
+global.canalNombreGB = ["Makima - Oficial channel", "Makima - Update"]
 global.channelRD = await getRandomChannel()
 
 global.fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
