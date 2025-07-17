@@ -497,7 +497,7 @@ await plugin.after.call(this, m, extra)
 console.error(e)
 }}
 if (m.limit) m.reply(`*${+m.limit}* ${await tr("diamante")} 💎 ${await tr("usados")}`)
-if (m.money) m.reply(+m.money + ` LoliCoins ${await tr("usados")} 🪙`) 
+if (m.money) m.reply(+m.money + ` Coins ${await tr("usados")} 🪙`) 
 }
 break
 }}} catch (e) {
@@ -552,7 +552,7 @@ if (opts['autoread']) await this.readMessages([m.key])
 if (settingsREAD.autoread2) await this.readMessages([m.key])  
 //if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])    
 	    
-if (!m.fromMem && m.text.match(/(@5492266466080|LoliBot|Botsito|Gata|:v)/gi)) {
+if (!m.fromMem && m.text.match(/(@18293142989|MakimaBot|Botsita|Bot|:v)/gi)) {
 let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💘", "💝", "💟", "🌝", "😎", "🔥", "🖕", "🐦"])
 this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}}}
@@ -586,7 +586,7 @@ pp = await this.profilePictureUrl(user, 'image');
 let apii = await this.getFile(pp);
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {};
 const isBotAdminNn = botTt2?.admin === "admin" || false;
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*ᴜɴ ɢʀᴜᴘᴏ ɢᴇɴɪᴀ😸*\n *sɪɴ ʀᴇɢʟᴀ 😉*') :
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*ᴜɴ ɢʀᴜᴘᴏ ɢᴇɴɪᴀl*\n *sɪɴ ʀᴇɢʟᴀ 😉*') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0]);
 
 if (chat.antifake && isBotAdminNn && action === 'add') {
@@ -603,10 +603,10 @@ let vn = 'https://qu.ax/cUYg.mp3';
 let or = ['texto', 'audio'];
 let media = or[Math.floor(Math.random() * 2)];
 if (media === 'texto') {
-this.sendMessage(id, { text: text, contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363355261011910@newsletter', serverMessageId: '', newsletterName: 'LoliBot ✨' }, forwardingScore: 9999999, isForwarded: true, mentionedJid: [user], externalAdReply: { showAdAttribution: true, renderLargerThumbnail: true, thumbnail: apii.data, title: [wm, ' ' + wm + '😊', '🌟'].getRandom(), containsAutoReply: true, mediaType: 1, sourceUrl: [nna, nna2, nnntt, yt].getRandom() } } }, { quoted: fkontak2 });
+this.sendMessage(id, { text: text, contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363422990331018@newsletter', serverMessageId: '', newsletterName: '⁖ฺ۟̇࣪·֗٬̤⃟🩵 𝐌a͜͡𝐤𝐢𝐦𝐚 - 𝐭est 🩵٬̤⃟⁖ฺ۟̇࣪·֗' }, forwardingScore: 9999999, isForwarded: true, mentionedJid: [user], externalAdReply: { showAdAttribution: true, renderLargerThumbnail: true, thumbnail: apii.data, title: [wm, ' ' + wm + '🩵', '💎'].getRandom(), containsAutoReply: true, mediaType: 1, sourceUrl: [nna, nna2, nnntt, yt].getRandom() } } }, { quoted: fkontak2 });
 }
 if (media === 'audio') {
-this.sendMessage(id, { audio: { url: vn }, contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363355261011910@newsletter', serverMessageId: '', newsletterName: 'LoliBot ✨' }, forwardingScore: 9999999, isForwarded: true, mentionedJid: [user], externalAdReply: { mediaType: 1, previewType: "PHOTO", thumbnail: apii.data, title: `乂 ＷＥＬＣＯＭＥ 乂`, body: [wm, ' ' + wm + '😊', '🌟'].getRandom(), showAdAttribution: true, renderLargerThumbnail: true, sourceUrl: [nna, nna2, nnntt, yt].getRandom() } }, ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: fkontak2 });
+this.sendMessage(id, { audio: { url: vn }, contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363422990331018@newsletter', serverMessageId: '', newsletterName: '⁖ฺ۟̇࣪·֗٬̤⃟🩵 𝐌a͜͡𝐤𝐢𝐦𝐚 - 𝐭est 🩵٬̤⃟⁖ฺ۟̇࣪·֗' }, forwardingScore: 9999999, isForwarded: true, mentionedJid: [user], externalAdReply: { mediaType: 1, previewType: "PHOTO", thumbnail: apii.data, title: `乂 ＷＥＬＣＯＭＥ 乂`, body: [wm, ' ' + wm + '🩵', '💎'].getRandom(), showAdAttribution: true, renderLargerThumbnail: true, sourceUrl: [nna, nna2, nnntt, yt].getRandom() } }, ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: fkontak2 });
 }}}}
 			    
 break
@@ -653,8 +653,8 @@ for (let nk of callUpdate) {
 if (nk.isGroup == false) {
 if (nk.status == "offer") {
 let callmsg = await this.reply(nk.from, `ʜᴏʟᴀ *@${nk.from.split('@')[0]}*, ʟᴀs ${nk.isVideo ? 'videollamadas' : 'llamadas'} ɴᴏ ᴇsᴛᴀɴ ᴘᴇʀᴍɪᴛɪᴅᴀs, sᴇʀᴀs ʙʟᴏǫᴜᴇᴀᴅᴏ.\n\nsɪ ᴀᴄᴄɪᴅᴇɴᴛᴀʟᴍᴇɴᴛᴇ ʟʟᴀᴍᴀsᴛᴇ ᴘᴏɴɢᴀsᴇ ᴇɴ ᴄᴏɴᴛᴀᴄᴛᴏ ᴄᴏɴ ᴍɪ ᴄʀᴇᴀᴅᴏʀ ᴘᴀʀᴀ ǫᴜᴇ ᴛᴇ ᴅᴇsʙʟᴏǫᴜᴇᴇ!\n\nɢʀᴜᴘᴏ ᴀsɪsᴛᴇɴᴄɪᴀ ғᴀᴄᴇʙᴏᴏᴋ: ${fb}`, false, { mentions: [nk.from] })
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑;;;\nFN:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿\nORG:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑\nTITLE:\nitem1.TEL;waid=5214774444444:+52 477 444 4444\nitem1.X-ABLabel:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑\nEND:VCARD`
-await this.sendMessage(nk.from, { contacts: { displayName: '𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑', contacts: [{ vcard }] }}, {quoted: callmsg})
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;⁖ฺ۟̇࣪·֗٬̤⃟🩵 𝐌a͜͡𝐤𝐢𝐦𝐚 🩵٬̤⃟⁖ฺ۟̇࣪·֗;;;\nFN:⁖ฺ۟̇࣪·֗٬̤⃟🩵 𝐌a͜͡𝐤𝐢𝐦𝐚 🩵٬̤⃟⁖ฺ۟̇࣪·֗\nORG:⁖ฺ۟̇࣪·֗٬̤⃟🩵 𝐌a͜͡𝐤𝐢𝐦𝐚 🩵٬̤⃟⁖ฺ۟̇࣪·֗\nTITLE:\nitem1.TEL;waid=5214774444444:+52 477 444 4444\nitem1.X-ABLabel:⁖ฺ۟̇࣪·֗٬̤⃟🩵 𝐌a͜͡𝐤𝐢𝐦𝐚 🩵٬̤⃟⁖ฺ۟̇࣪·֗\nX-WA-BIZ-DESCRIPTION:[❗] ᴇsᴄʀɪʙe sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:⁖ฺ۟̇࣪·֗٬̤⃟🩵 𝐌a͜͡𝐤𝐢𝐦𝐚 🩵٬̤⃟⁖ฺ۟̇࣪·֗\nEND:VCARD`
+await this.sendMessage(nk.from, { contacts: { displayName: '⁖ฺ۟̇࣪·֗٬̤⃟🩵 𝐌a͜͡𝐤𝐢𝐦𝐚 🩵٬̤⃟⁖ฺ۟̇࣪·֗', contacts: [{ vcard }] }}, {quoted: callmsg})
 await this.updateBlockStatus(nk.from, 'block')
 }}}}
 
@@ -676,18 +676,18 @@ console.error(e)
 
 global.dfail = async (type, m, conn, usedPrefix) => { 
 let msg = {
-rowner: await tr('⚠️ Tu que? este comando es solo para mi propietario'),
-owner: await tr('⚠️ Tu que? este comando es solo para mi propietario.'),
-mods: await tr('⚠️ Este comando solo lo puedo usar yo. ¡Privilegios de mod! 😘'),
-premium: await tr('⚠️ Este comando es solo para usuarios Premium (VIP). ¡Ser VIP tiene sus beneficios! 🌟'),
-group: await tr('⚠️ Pendejo este comando es solo para grupos.'),
-private: await tr('⚠️ Vamos al privado, este comando solo funciona en el privado del bot. ¡Hablemos en privado! 🤫'),
-admin: await tr('🤨 No eres admins. Solo los admins pueden usar este comando.'),
-botAdmin: await tr('⚠️ haz admin al Bot "YO" para poder usar este comando.'),
-unreg: await tr('「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: #reg nombre.edad\nEjemplo: #reg elrebelde.21'),
-restrict: await tr('[ 🔐 ] Este comando esta desactivado por mi jefe')
+rowner: await tr('「🩵」Este Comando Solo Puede Ser usado Por Mi Creador.'),
+owner: await tr('「🩵」Este Comando Solo Puede Ser usado Por Mi Creador.'),
+mods: await tr('「🩵」Este Comando Solo Puede Ser usado Por Mi.'),
+premium: await tr('「🩵」Este Comando Solo Puede Ser usado Por usuarios premiums.'),
+group: await tr('「🩵」Este Comando Solo Puede Ser usado en grupos.'),
+private: await tr('「🩵」Este Comando Solo Puede Ser usado En chat privado.'),
+admin: await tr('「🩵」Este Comando Solo Puede Ser usado Por Admins.'),
+botAdmin: await tr('「🩵」Este Comando Solo Puede Ser usado si soy Admin en el grupo.'),
+unreg: await tr('「🩵」No te encuentras registrado, Regístrate para usar mis comandos.\n\n/Reg Nombre.Edad\n\nEjemplo: /Reg Félix.14'),
+restrict: await tr('「🩵」Este comando fue deshabilitado por mi creador.')
 }[type];
-if (msg) return conn.sendMessage(m.chat, {text: msg, contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363355261011910@newsletter', serverMessageId: '', newsletterName: 'LoliBot ✨' }, externalAdReply : {mediaUrl: null, mediaType: 1, description: null, "title": `ℹ️𝐈𝐍𝐅𝐎 ℹ️`, body: wm, previewType: 0, "thumbnail": img.getRandom(), sourceUrl: [nna, nna2, md, yt, nn, tiktok].getRandom()}}}, { quoted: m })
+if (msg) return conn.sendMessage(m.chat, {text: msg, contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363402078116190@newsletter', serverMessageId: '', newsletterName: '⁖ฺ۟̇࣪·֗٬̤⃟🩵 𝐌a͜͡𝐤𝐢𝐦𝐚 - 𝐔p͜͡𝐝𝐚𝐭e 🩵٬̤⃟⁖ฺ۟̇࣪·֗' }, externalAdReply : {mediaUrl: null, mediaType: 1, description: null, "title": `𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐜𝐢𝐨𝐧`, body: wm, previewType: 0, "thumbnail": img.getRandom(), sourceUrl: [nna, nna2, md, yt, nn, tiktok].getRandom()}}}, { quoted: m })
 }
 
 const file = global.__filename(import.meta.url, true);
