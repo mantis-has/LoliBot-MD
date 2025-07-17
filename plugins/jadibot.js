@@ -32,15 +32,14 @@ let crm3 = "SBpbmZvLWRvbmFyLmpz"
 let crm4 = "IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz"
 let drm1 = "CkphZGlib3QsIEhlY2hv"
 let drm2 = "IHBvciBAQWlkZW5fTm90TG9naWM"
-let rtx = `*🔰 LoliBot-MD 🔰*\nㅤㅤㅤㅤ*Ser sub bot*\n\n*Con otro telefono que tengas o en la PC escanea este QR para convertirte en un sub bot*\n\n*1. Haga clic en los tres puntos en la esquina superior derecha*\n*2. Toca WhatsApp Web*\n*3. Escanee este codigo QR*\n*Este código QR expira en 45 segundos!*\n\n> *⚠️ No nos hacemos responsable del mal uso que se le pueda dar o si el numero se manda a soporte.. ustedes tienen el deber se seguir al pie de la letra los terminos y condiciones y privacidad (escribe eso y te los dará)*`
-let rtx2 = `🟢 *_NUEVA FUNCIÓN DE HACERTE UN SUB BOT_* 🟢
+let rtx = `CONEXION SUBBOT
 
-*1️⃣ Diríjase en los tres puntos en la esquina superior derecha*
-*2️⃣ Ir a la opción Dispositivos vinculados*
-*3️⃣ da click en vincular con codigo de teléfono*
-*4️⃣ pega el codigo a continuación*
+Conéctate como subbot con este código QR.
 
-> *⚠️ No nos hacemos responsable del mal uso que se le pueda dar o si el numero se manda a soporte.. ustedes tienen el deber se seguir al pie de la letra los terminos y condiciones y privacidad (escribe eso y te los dará)*`
+Este código expira en los próximos 45 segundos. Recomiendo hacerlo rápido o mejor conectarte con código de 8 dígitos.`
+let rtx2 = `*_CONEXION SUB BOT_*
+
+Conéctate Como subbot con el siguiente código de 8 dígitos que te enviaremos.`
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -92,7 +91,7 @@ fs.mkdirSync(pathGataJadiBot, { recursive: true })}
 try {
 args[0] && args[0] != undefined ? fs.writeFileSync(pathCreds, JSON.stringify(JSON.parse(Buffer.from(args[0], "base64").toString("utf-8")), null, '\t')) : ""
 } catch {
-conn.reply(m.chat, `*⚠️ Use correctamente el comando:* \`${usedPrefix + command} code\``, m)
+conn.reply(m.chat, `*Use correctamente el comando:* \`${usedPrefix + command} code\``, m)
 return
 }
 
