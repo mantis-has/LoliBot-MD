@@ -57,7 +57,7 @@ _roles: null,
 
 generateRoles() {
 if (this._roles) return this._roles; 
-const ranks = ['NOVATO(A)', 'APRENDIS', 'EXPLORADOR(A)', 'MAESTRO(A)', 'IRON', 'PLATA', 'ORO', 'Bard', 'Necromancer', 'Warlock', 'Wizard', 'Sage', 'Priest', 'Rogue', 'Brawler', 'Archer', 'Sniper', 'Ninja', 'Samurai', 'Berserker', 'Legend', 'Champion', 'Grandmaster', 'Elder', 'Immortal', 'Nephalem', 'Eternal', 'Neptune', 'Pluto', 'Eris', 'Ascension', 'Elysium', 'Ether', 'Gaea', 'Hades', 'DIAMANTE', 'PRO EN LOLIBOT-MD', 'SUPER PRO', 'LEGENDARIO(A)', 'Nova', 'LEYENDA', 'ESTELAR', 'TOP ASTRAL', 'ÉLITE GLOBAL'];
+const ranks = ['NOVATO(A)', 'APRENDIS', 'EXPLORADOR(A)', 'MAESTRO(A)', 'IRON', 'PLATA', 'ORO', 'Bard', 'Necromancer', 'Warlock', 'Wizard', 'Sage', 'Priest', 'Rogue', 'Brawler', 'Archer', 'Sniper', 'Ninja', 'Samurai', 'Berserker', 'Legend', 'Champion', 'Grandmaster', 'Elder', 'Immortal', 'Nephalem', 'Eternal', 'Neptune', 'Pluto', 'Eris', 'Ascension', 'Elysium', 'Ether', 'Gaea', 'Hades', 'DIAMANTE', 'PRO', 'SUPER PRO', 'LEGENDARIO(A)', 'Nova', 'LEYENDA', 'ESTELAR', 'TOP ASTRAL', 'ÉLITE GLOBAL'];
     
 const subLevels = ['V', 'IV', 'III', 'II', 'I'];
 let roles = [];
