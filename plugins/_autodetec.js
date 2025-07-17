@@ -36,7 +36,7 @@ await this.sendMessage(m.chat, { text: `🔒 ${await tr("AHORA")} *${m.messageSt
 await this.sendMessage(m.chat, { text: `${await tr("EL GRUPO")} *${m.messageStubParameters[0] == 'on' ? 'ESTA CERRADO 🔒' : 'ESTA ABIERTO 🔓'}*\n ${m.messageStubParameters[0] == 'on' ? await tr('SOLO LOS ADMINS PUEDEN ESCRIBIR') : await tr('YA PUEDEN ESCRIBIR TODOS')} ${await tr("EN ESTE GRUPO")}`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 } else if (chat.welcome && m.messageStubType == 27 && this.user.jid != global.conn.user.jid) { 
 let subject = groupMetadata.subject
-let descs = groupMetadata.desc || "*ᴜɴ ɢʀᴜᴘᴏ ɢᴇɴɪᴀ😸*\n *sɪɴ ʀᴇɢʟᴀ 😉*";
+let descs = groupMetadata.desc || "*ᴜɴ ɢʀᴜᴘᴏ ɢᴇɴɪᴀl*\n *sɪɴ ʀᴇɢʟᴀ 😉*";
 let userName = `${m.messageStubParameters[0].split`@`[0]}`;
 let defaultWelcome = `┏━━━━━━━━━━━━\n┃──〘 *WELCOME* 〙──\n┃━━━━━━━━━━━━\n┃ *${await tr("Hola")} @${userName} 👋 ${await tr("Bienvenido a")}*\n┃ *_${subject} ✨_*\n┃\n┃=> *_${await tr("En este grupo podrás")}_*\n┃ *_${await tr("encontrar")}:_*\n┠⊷ *${await tr("Amistades")} 🫂* \n┠⊷ *${await tr("Desmadre")} 💃🕺*\n┠⊷ *${await tr("Relajo")} 💅*\n┠⊷ *${await tr("Enemig@s")} 🥵*\n┠⊷ *${await tr("Un Bot Sexy")}*\n┃\n┃=> *_${await tr("Puedes solicitar mi lista de")}_*\n┃ *_${await tr("comandos con:")}_*\n┠⊷ *#menu*\n┃\n┃=> *_${await tr("Aquí tienes la descripción")}_*\n┃ *_${await tr("del grupo, léela!!")}_*\n┃\n\n${descs}\n\n┃\n┃ *_🥳 ${await tr("Disfruta de tu")}_*\n┃ *_${await tr("estadía en el grupo 🥳")}_*\n┃\n┗━━━━━━━━━━━`;
 let textWel = chat.sWelcome ? chat.sWelcome
@@ -47,7 +47,7 @@ let textWel = chat.sWelcome ? chat.sWelcome
                 
 await this.sendMessage(m.chat, { text: textWel, 
 contextInfo:{
-forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id || "120363355261011910@newsletter", serverMessageId: '', newsletterName: channelRD.name || wm },
+forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id || "120363402078116190@newsletter", serverMessageId: '', newsletterName: channelRD.name || wm },
 forwardingScore: 9999999,
 isForwarded: true, 
 mentionedJid:[m.sender, m.messageStubParameters[0]],
@@ -70,7 +70,7 @@ let textBye = chat.sBye ? chat.sBye
 : defaultBye;
 await this.sendMessage(m.chat, { text: textBye, 
 contextInfo:{
-forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id || "120363355261011910@newsletter", serverMessageId: '', newsletterName: channelRD.name || wm },
+forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id || "120363402078116190@newsletter", serverMessageId: '', newsletterName: channelRD.name || wm },
 forwardingScore: 9999999,
 isForwarded: true, 
 mentionedJid:[m.sender, m.messageStubParameters[0]],
@@ -95,16 +95,16 @@ let textAdm = chat.sPromote ? chat.sPromote
 await this.sendMessage(m.chat, { text: textAdm,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363355261011910@newsletter', 
+newsletterJid: '120363402078116190@newsletter', 
 serverMessageId: '', 
-newsletterName: 'LoliBot ✨️' },
+newsletterName: '「🩵」Makima' },
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)],
 externalAdReply: {  
 showAdAttribution: true,  
 renderLargerThumbnail: false,  
-title: "NUEVO ADMINS 🥳",
+title: "NUEVO ADMIN 🥳",
 body: wm,
 containsAutoReply: true,  
 mediaType: 1,   
@@ -123,16 +123,16 @@ let textAdmin = chat.sDemote ? chat.sDemote
 await this.sendMessage(m.chat, { text: textAdmin,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363355261011910@newsletter', 
+newsletterJid: '120363402078116190@newsletter', 
 serverMessageId: '', 
-newsletterName: 'LoliBot ✨️' },
+newsletterName: 'MakimaBot' },
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid: [m.sender, m.messageStubParameters[0], ...groupAdmins.map(v => v.id)],
 externalAdReply: {  
 showAdAttribution: true,  
 renderLargerThumbnail: false,  
-title: "📛 UN ADMINS MENOS",
+title: "📛 UN ADMIN MENOS",
 body: wm,
 containsAutoReply: true,  
 mediaType: 1,   
@@ -175,7 +175,7 @@ return; /*
 } if (chat.detect && m.messageStubType == 72) {
 await this.sendMessage(m.chat, { text: `${usuario} 𝘾𝘼𝙈𝘽𝙄𝙊 𝙇𝘼𝙎 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙇𝙊𝙎 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙇𝙀𝙎 𝘼 *@${m.messageStubParameters[0]}*`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 }  else if (chat.detect && m.messageStubType == 123) {
-await this.sendMessage(m.chat, { text: `${usuario} *𝘿𝙀𝙎𝘼𝘾𝙏𝙄𝙑𝙊́* 𝙇𝙊𝙎 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙇.`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})*/
+await this.sendMessage(m.chat, { text: `${usuario} *𝘿𝙀𝙎𝘼𝘾𝙏𝙄𝙑𝙊́* 𝙇𝙊𝙎 𝙈𝙀𝙉𝙎𝘼𝙅𝙀S 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙇ES.`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})*/
 } else {
 console.log({messageStubType: m.messageStubType,
 messageStubParameters: m.messageStubParameters,
