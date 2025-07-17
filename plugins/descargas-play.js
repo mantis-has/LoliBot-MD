@@ -16,9 +16,9 @@ const userCaptions = new Map();
 const userRequests = {};
 
 const handler = async (m, { conn, command, args, text, usedPrefix }) => {
-if (!text) return m.reply(`*🤔 ${await tr("Que está buscando?")} 🤔*\n*${await tr("Ingrese el nombre de la canción")}*\n\n*${await tr("Ejemplo:")}*\n${usedPrefix + command} emilia 420`);
+if (!text) return m.reply(`*${await tr("Que está buscando?")} 「🩵」 *\n*${await tr("Ingrese el nombre de la canción")}*\n\n*${await tr("Ejemplo:")}*\n${usedPrefix + command} emilia 420`);
 const tipoDescarga = command === 'play' || command === 'musica' ? 'audio' : command === 'play2' ? 'video' : command === 'play3' ? 'audio (documento)' : command === 'play4' ? 'video (documento)' : '';
-if (userRequests[m.sender]) return await conn.reply(m.chat, `⏳ ${await tr("Hey")} @${m.sender.split('@')[0]} ${await tr("espera pendejo, ya estás descargando algo")} 🙄\n${await tr("Espera a que termine tu solicitud actual antes de hacer otra...")}`, userCaptions.get(m.sender) || m);
+if (userRequests[m.sender]) return await conn.reply(m.chat, `⏳ ${await tr("Hey")} @${m.sender.split('@')[0]} ${await tr("espera pendejo, ya estás descargando algo")} 🩵\n${await tr("Espera a que termine tu solicitud actual antes de hacer otra...")}`, userCaptions.get(m.sender) || m);
 userRequests[m.sender] = true;
 try {
 let videoIdToFind = text.match(youtubeRegexID) || null;
@@ -29,15 +29,13 @@ const videoId = videoIdToFind[1];
 ytplay2 = ytplay2.all.find(item => item.videoId === videoId) || ytplay2.videos.find(item => item.videoId === videoId)}
 ytplay2 = ytplay2.all?.[0] || ytplay2.videos?.[0] || ytplay2;
 const PlayText = await conn.sendMessage(m.chat, { text: `${yt_play[0].title}
-*⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
-
 *⏰ ${await tr("Duración")}:* ${secondString(yt_play[0].duration.seconds)}
 *👉🏻 ${await tr("Aguarde un momento en lo que envío su")} ${tipoDescarga}*`,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363355261011910@newsletter', 
+newsletterJid: '120363402078116190@newsletter', 
 serverMessageId: '', 
-newsletterName: 'LoliBot ✨️' },
+newsletterName: 'Makima Bot MD' },
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid: null,  
