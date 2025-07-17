@@ -23,8 +23,8 @@ if (user.banned) return !1;
 const esProhibido = prefijosProhibidos.some(prefijo => senderNumber.startsWith(prefijo));
 if (esProhibido) {
 user.banned = true;
-console.log(`⚠️ Usuarios baneado ${m.sender}`)
-//await conn.reply(m.chat, `⚠️ @${m.sender.split`@`[0]} ha sido baneado.\nPor orden de mi owner no puedes usar el bot.\n\nPARA USAR EL BOT HAZTE UN SUB BOT CON:\n/jadibot\n\n⚠️ \`\`\`Serás Baneados\`\`\` ⚠️`, m, { mentions: [m.sender] });
+console.log(`「🩵」 Usuarios baneado ${m.sender}`)
+//await conn.reply(m.chat, `「🩵」 @${m.sender.split`@`[0]} ha sido baneado.\nPor orden de mi creador, no puede usar el bot.\n\nPARA USAR EL BOT HAZTE UN SUB BOT CON:\n/jadibot\n\n「🩵」 \`\`\`Serás Baneado\`\`\` 「🩵」`, m, { mentions: [m.sender] });
 return !1;
 }
 return !0;
