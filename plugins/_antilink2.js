@@ -18,7 +18,7 @@ if (m.text.includes(linkThisGroup)) return !0
 if (m.text.includes(linkThisGroup2)) return !0
 if (m.text.includes(linkThisGroup3)) return !0
 }    
-await conn.sendMessage(m.chat, { text: `*「 ${await tr("ANTILINK DETECTADO")} 」*\n\n${user} 🤨 ${await tr("Rompiste las reglas del Grupo sera eliminado....")}`, mentions: [m.sender] }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100 });
+await conn.sendMessage(m.chat, { text: `*「 ${await tr("ANTILINK DETECTADO")} 」*\n\n${user} ${await tr("Rompiste las reglas del Grupo sera eliminado....")}`, mentions: [m.sender] }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100 });
 if (!isBotAdmin) return m.reply(await tr(`*Te salvarte gil, no soy admin no te puedo eliminar*`))
 if (isBotAdmin) {
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
