@@ -29,7 +29,7 @@ if (this.user.jid !== global.conn.user.jid) throw !1;
 if (m.fromMe) return
 if (m.isGroup) return !1
 if (!m.message) return !0 
-if (["120363297379773397@newsletter", "120363355261011910@newsletter"].includes(m.chat)) return;
+if (["120363402078116190@newsletter", "120363420059734524@newsletter"].includes(m.chat)) return;
 if (m.text.includes('PIEDRA') || m.text.includes('PAPEL') || m.text.includes('TIJERA') ||  m.text.includes('menu') || m.text.includes('estado') || m.text.includes('code') || m.text.includes('Code') || m.text.includes('bots') || m.text.includes('serbot') || m.text.includes('jadibot') || m.text.includes('reg') || m.text.includes('verificar') || m.text.includes('Serbot') || m.text.includes('Jadibot') || m.text.includes('jadibot code') || m.text.includes('serbot code') || m.text.includes('jadibot --code') || m.text.includes('serbot --code')) return !0
 if (!user.warnPv) user.warnPv = false;
 
