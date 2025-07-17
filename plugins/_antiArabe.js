@@ -7,7 +7,7 @@ const senderNumber = m.sender.split('@')[0];
 const user = global.db.data.users[m.sender]
 const text = (m.text || '').toLowerCase();
 
-if (["120363297379773397@newsletter", "120363355261011910@newsletter"].includes(m.chat)) return;
+if (["120363420059734524@newsletter", "120363402078116190@newsletter"].includes(m.chat)) return;
 if (m.fromMe) return;
 if (!bot.anticommand) return;
 
