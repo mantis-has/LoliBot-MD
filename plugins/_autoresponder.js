@@ -17,7 +17,7 @@ if (m.mentionedJid.includes(this.user.jid)) {
 //if (m.mentionedJid.includes(this.user.jid) || (m.quoted && m.quoted.sender === this.user.jid)) {
 if (chat.simi) return;
 if (m.text.includes('PIEDRA') || m.text.includes('PAPEL') || m.text.includes('TIJERA') ||  m.text.includes('menu') ||  m.text.includes('estado') || m.text.includes('bots') ||  m.text.includes('serbot') || m.text.includes('jadibot') || m.text.includes('Video') || m.text.includes('Audio') || m.text.includes('audio') || m.text.includes('Bot') || m.text.includes('bot') || m.text.includes('Exp') || m.text.includes('diamante') || m.text.includes('lolicoins') || m.text.includes('Diamante') || m.text.includes('Lolicoins')) return !0
-if (["120363297379773397@newsletter", "120363355261011910@newsletter"].includes(m.chat)) return;
+if (["120363402078116190@newsletter", "120363420059734524@newsletter"].includes(m.chat)) return;
 await this.sendPresenceUpdate('composing', m.chat);
 
 async function luminsesi(q, username, logic) {
