@@ -31,17 +31,17 @@ let tags = {
 const defaultMenu = {
 before: `「 %wm 」
  
-%msgHello 👋🏻 *%name*
+%msg¡Hola! *%name* Soy Félix
  
 *• %msgFecha:* %fecha
-*• %msgHora:* %hora (🇦🇷) 
-*• %msgUsers:* %totalreg
-*• %msgUptim:* %muptime
+*• %msgHora:* %hora 
+*• %msgRegistros:* %totalreg
+*• %msgTuenpo activo:* %muptime
 %botOfc
 
 *• %msgLimit:* %limit
 *• %msgNivel:* %level
-*• %msgRang:* %role
+*• %msgRango:* %role
 *• %msgExp:* %totalexp XP 
 
 *• %msgRegUser:* %toUserReg de %toUsers
