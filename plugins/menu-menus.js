@@ -120,252 +120,484 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
        ➪  𝗗𝗘 
            ➪ 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦
 
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮PRINCIPALES
-┃┈➤ #estado
-┃┈➤ #botreglas
-┃┈➤ #menu
-┃┈➤ #menu2
-┃┈➤ #uptime
-┃┈➤ #menulista
+╭━━ *PRINCIPALES*  ━━━╮
+┃.menu18
+┃.hornymenu
+┃.nwfshorario
+┃.cuentaoficial
+┃.dashboard
+┃.donar
+┃.estado
+┃.groups
+┃.grouplist
+┃.grupos
+┃.infobot
+┃.instalarbot
+┃.ping
+┃.speed
+┃.reporte <teks>
+┃.request <teks>
+┃.runtime
+┃.speedtest
+┃.help
 ╰━━━━━━━━━━━━━
 
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮NUEVOS
-┃┈➤ #artista [nombre]
-┃┈➤ #dalle2
-┃┈➤ #repeat
-┃┈➤ #repite
-┃┈➤ #copiame
-┃┈➤ #soccer
-┃┈➤ #rcjugador
-┃┈➤ #rgjugador
-┃┈➤ #vtjugador
-╰━━━━━━━━━━━━━━━━━━
 
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮PERSONALIZACIÓN
-┃┈➤ #set
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮SUBBOTS
-┃┈➤ #setname
-┃┈➤ #setbanner
-┃┈➤ #code
-┃┈➤ #qr
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮BUSCADORES
-┃┈➤ #gitthubsearch
-┃┈➤ #google [Búsqueda]
-┃┈➤ #tiktoksearch
-┃┈➤ #pinterest
-┃┈➤ #imagen [querry]
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮JUEGOS
-┃┈➤ #abrazar
-┃┈➤ #acertijo
-┃┈➤ #agarrar
-┃┈➤ #ahorcado
-┃┈➤ #besar
-┃┈➤ #acariciar
-┃┈➤ #golpear
-┃┈➤ #pregunta
-┃┈➤ #reto
-┃┈➤ #triste
-┃┈➤ #reto
-┃┈➤ #bot
-┃┈➤ #love
-┃┈➤ #consejo
-┃┈➤ #dance
-┃┈➤ #nombreninja
-┃┈➤ #meme
-┃┈➤ #dormir 
-┃┈➤ #rata
-┃┈➤ #enamorada
-┃┈➤ #gay
-┃┈➤ #manco
-┃┈➤ #apostar
-┃┈➤ #piropo
-┃┈➤ #sonrojarse
-┃┈➤ #agarrar
-╰━━━━━━━━━━━━━━━━━━
+╭━━ *SUB-BOTS*━━━━━╮
+┃.bcbot
+┃.deletesession
+┃.eliminarsesion
+┃.setprimary <@tag>
+┃.setconfig
+┃.listjadibot
+┃.bots
+┃.stop
+┃.serbot
+┃.jadibot
+┃.code
+╰━━━━━━━━━━━━━
 
 
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮WAIFU
-┃┈➤ #robarpersonaje
-┃┈➤ #obtenidos
-┃┈➤ #sacar
-┃┈➤ #guardar
-┃┈➤ #carrw
-┃┈➤ #confirmar
-┃┈➤ #character
-┃┈➤ #roll
-┃┈➤ #top
-╰━━━━━━━━━━━━━━━━━━
+╭━ *DESCARGAS*━━━╮
+┃.drive <url> 
+┃.fb 
+┃.facebook 
+┃.fbdl 
+┃.gitclone <url> 
+┃.instagram *<link ig>* 
+┃.igstalk 
+┃.mediafire 
+┃.mediafiredl 
+┃.apk 
+┃.apkmod 
+┃.play
+┃.play2
+┃.play3
+┃.play4
+┃.playdoc
+┃.ytmp4
+┃.ytmp3
+┃.playlist
+┃.yts
+┃.spotify 
+┃.thread 
+┃.tiktok 
+┃.tiktoksearch <texto> 
+┃.tiktokstalk 
+┃.applemusic 
+╰━━━━━━━━━━━━━
 
 
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮REGISTROS
-┃┈➤ #reg
-┃┈➤ #unreg
-┃┈➤ #profile
-┃┈➤ #usuarios
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮ECONOMIA
-┃┈➤ #daily
-┃┈➤ #bank
-┃┈➤ #robar
-┃┈➤ #robarxp
-┃┈➤ #rob2
-┃┈➤ #levelup
-┃┈➤ #lb
-┃┈➤ #mine
-┃┈➤ #retirar
-┃┈➤ #trabajar
-┃┈➤ #transferir
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮DESCARGAS
-┃┈➤ #fb
-┃┈➤ #play
-┃┈➤ #playvid
-┃┈➤ #mediafire
-┃┈➤ #apkmod
-┃┈➤ #ytmp3doc
-┃┈➤ #ytmp4doc
-┃┈➤ #ig
-┃┈➤ #gitclone
-┃┈➤ #tiktok
-┃┈➤ #spotify
-┃┈➤ #tw
-┃┈➤ #ytmp4 
-┃┈➤ #imagen [querry]
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮GRUPOS
-┃┈➤ #group abrir 
-┃┈➤ #group cerrar 
-┃┈➤ #delete
-┃┈➤ #setppgroup
-┃┈➤ #encuesta
-┃┈➤ #rentar
-┃┈➤ #kick
-┃┈➤ #promote
-┃┈➤ #demote
-┃┈➤ #tagall 
-┃┈➤ #tag
-┃┈➤ #invite 
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮STICKERS
-┃┈➤ #wm [autor]
-┃┈➤ #s
-┃┈➤ #qc
-┃┈➤ #toimg
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮DATABASE
-┃┈➤ #delvn
-┃┈➤ #demsg
-┃┈➤ #delimg
-┃┈➤ #delsticker
-┃┈➤ #infobot
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮EXPERIENCIA
-┃┈➤ #buy
-┃┈➤ #buyall
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮CONFIGURACIÓN
-┃┈➤ #enable
-┃┈➤ #disable
-┃┈➤ #on
-┃┈➤ #off
-╰━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮ANIME
-┃┈➤ #toanime
-┃┈➤ #tts
-┃┈➤ #remini
-┃┈➤ #enhance
-┃┈➤ #hd
-┃┈➤ #nuevafotochannel
-┃┈➤ #nosilenciarcanal
-┃┈➤ #silenciarcanal
-┃┈➤ #seguircanal
-┃┈➤ #inspect
-┃┈➤ #infobot
-┃┈➤ #readvo
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮INFORMACIÓN
-┃┈➤ #creador
-┃┈➤ #owner
-┃┈➤ #reportar
-┃┈➤ #ping
-┃┈➤ #links
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮CREADOR
-┃┈➤ #addprem
-┃┈➤ #copia
-┃┈➤ #broadcastgroup
-┃┈➤ #bcgb
-┃┈➤ #bcgb2
-┃┈➤ #broadcast
-┃┈➤ #bc
-┃┈➤ #cheat
-┃┈➤ #delprem
-┃┈➤ #dsowner
-┃┈➤ #fixmsgespera
-┃┈➤ #get
-┃┈➤ #prefix
-┃┈➤ #reiniciar 
-┃┈➤ #saveplugin 
-┃┈➤ #update
-┃┈➤ #resetpersonajes
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮DESARROLLADORES
-┃┈➤ #autoadmin
-┃┈➤ #banuser
-┃┈➤ #unbanuser
-┃┈➤ #banchat
-┃┈➤ #unbanchat
-┃┈➤ #ip
-┃┈➤ #join
-╰━━━━━━━━━━━━━━━━━━
-
-.       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
- ╭ֹ┈ ⵿❀⵿ ┈╮A - I
-┃┈➤ #dalle
-┃┈➤ #simi
-┃┈➤ #ai
-┃┈➤ #tovideo
-┃┈➤ #togifaud
-╰━━━━━━━━━━━━━━━━━━
+╭━━━ *JUEGOS*━━━━━╮
+┃.acertijo
+┃.pelicula
+┃.trivia
+┃.ahorcado
+┃.consejo
+┃.ppt
+┃.suitpvp
+┃.pvp
+┃.slot
+┃.apostar
+┃.tictactoe
+┃.ttt
+┃.math
+┃.matemáticas
+┃.delttt
+┃.love
+┃.gay2
+┃.lesbiana
+┃.pajero
+┃.pajera
+┃.puto
+┃.puta
+┃.manco
+┃.manca
+┃.rata
+┃.prostituta
+┃.prostituto
+┃.amigorandom
+┃.amistad
+┃.regalar
+┃.formarpareja
+┃.gay
+┃.personalidad
+┃.pregunta
+┃.ship
+┃.topgays
+┃.top
+┃.topputos
+┃.toplindos
+┃.toppajer@s
+┃.topshipost
+┃.toppanafresco
+┃.topgrasa
+┃.topintegrantes
+┃.topfamos@s
+┃.topsostero
+┃.top5parejas
+┃.Doxxeo
+┃.doxxeo
+┃.follar
+┃.piropo
+┃.chiste
+┃.reto
+┃.verdad
+┃.frases
+┃.sopa
+┃.buscarpalabras
+┃.cf <cantidad>
+┃.rt <color> <cantidad>
+┃.txt 
+┃.brat 
+┃.dados
+╰━━━━━━━━━━━━━
 
 
-> © ⍴᥆ᥕᥱrᥱძ ᑲᥡ Félix Manuel`.trim(); // El resto del menú permanece igual
+╭━ *RPG - GACHA*━━━━━╮
+┃.addpersonajes
+┃.rf-personajes
+┃.harem @tag
+┃.give @tag nombre_del_personaje
+┃.rf-retirar
+┃.rf-vender
+┃.vote <nombre del personaje>
+┃.rf
+┃.rw
+╰━━━━━━━━━━━━━
+
+
+╭━━━ *REGISTRO*━━╮
+┃.perfil
+┃.perfil *@user*
+┃.reg
+┃.verificar
+┃.myns
+┃.nserie
+┃.unreg
+╰━━━━━━━━━━━━━
+
+
+╭━━━ *GRUPO*━━━━━╮
+┃.group open/close
+┃.grupo abrir/cerrar
+┃.grupo aprobar +number
+┃.grouptime *<open/close>* *<número>*
+┃.delete *@user*
+┃.delwarn *@user*
+┃.demote *593xxx*
+┃.demote *@usuario*
+┃.demote *responder chat*
+┃.infogp
+┃.hidetag
+┃.kick *@user*
+┃.linkgroup
+┃.listwarn
+┃.pin
+┃.promote *593xxx*
+┃.promote *@usuario*
+┃.promote *responder chat*
+┃.resetlink
+┃.setbye <text>
+┃.setdesc
+┃.setname
+┃.setppgc
+┃.setwelcome <text>
+┃.simulate <event> @user
+┃.staff
+┃.tagall <mesaje>
+┃.invocar <mesaje>
+┃.contador
+┃.warn @user
+┃.infomenuable <option>
+╰━━━━━━━━━━━━━
+
+
+
+╭━ *CONFIGURACIÓN*━╮
+┃.enable <option>
+┃.disable <option>
+┃.on <option>
+┃.off <option>
+╰━━━━━━━━━━━━━
+
+
+╭━━━  *NSFW* ━━━╮
+┃.nsfwloli 
+┃.nsfwfoot 
+┃.nsfwass
+┃.nsfwbdsm 
+┃.nsfwcum 
+┃.nsfwero 
+┃.nsfwfemdom 
+┃.nsfwfoot 
+┃.nsfwglass 
+┃.nsfworgy 
+┃.yuri 
+┃.yuri2 
+┃.yaoi 
+┃.yaoi2 
+┃.panties 
+┃.tetas 
+┃.booty 
+┃.ecchi 
+┃.furro 
+┃.hentai 
+┃.trapito 
+┃.imagenlesbians 
+┃.pene 
+┃.porno 
+┃.randomxxx 
+┃.pechos 
+┃.hentai 
+┃.hentai2 
+┃.nsfwloli 
+┃.porno 
+┃.tetas
+┃.china 
+┃.boobs 
+┃.pack 
+┃.pack2 
+┃.pack3 
+┃.pack4 
+┃.videoxxx 
+┃.videoxxxlesbi 
+┃.girls 
+┃.pornolesbiv 
+┃.xnxxdl 
+┃.xnxxsearch <query> 
+╰━━━━━━━━━━━━━
+
+
+╭━━ *BUSCADORES*  ━━╮
+┃.animeinfo
+┃.google <pencarian> 
+┃.googlef <pencarian> 
+┃.lirik <Apa>
+┃.letra <Apa>
+┃.wikipedia <apa> 
+┃.gimage <query> 
+┃.imagen <query> 
+┃.pinterest <keyword> 
+┃.chagpt
+┃.ia
+┃.openai
+┃.gemini
+┃.copilot
+┃.dalle 
+╰━━━━━━━━━━━━━
+
+
+╭━  *STICKERS* ━╮
+┃.attp
+┃.emojimix emot1|emot2> 
+┃.exif <packname> | <author>
+┃.kiss
+┃.qc
+┃.sticker
+┃.wm <packname>|<author>
+╰━━━━━━━━━━━━━
+
+
+╭━ *RPG - ECONOMY*━╮
+┃.afk [razón]
+┃.balance
+┃.dep
+┃.retirar
+┃.daily
+┃.robar
+┃.daily
+┃.claim
+┃.top
+┃.levelup
+┃.minar
+┃.divorce <@tag>
+┃.marry @tag
+┃.pareja
+┃.rob
+┃.Buy
+┃.Buyall
+┃.transfer [tipo] [cantidad] [@tag]
+┃.work
+┃.trabaja
+┃.w
+╰━━━━━━━━━━━━━
+
+
+╭━ *CONVERTIDORES*━╮
+┃.toanime
+┃.togif
+┃.toimg (reply)
+┃.tomp3
+┃.tourl <reply image>
+┃.tovideo
+┃.tts <lang> <teks>
+╰━━━━━━━━━━━━━
+
+╭━━━ *LOGOS* ━━╮
+┃.blackpink *<texto>* 
+┃.logos 
+╰━━━━━━━━━━━━━
+
+
+╭━*HERRAMIENTAS*━╮
+┃.setlang [código|nombre|número] - Cambia el idioma del bot
+┃.tinyurl <link>
+┃.acortar <link>
+┃.autorespond <text>
+┃.clima *<ciudad/país>*
+┃.poll
+┃.encuesta
+┃.fake <text> @user <text2> 
+┃.ds
+┃.hd 
+┃.nowa
+┃.npmsearch 
+┃.readmore <text1>|<text2> 
+┃.ss *<url>* 
+┃.ssweb *<url>* 
+┃.style *<texto>* 
+┃.superinspect
+┃.inspect
+┃.traducir
+┃.translate
+┃.quemusica
+╰━━━━━━━━━━━━
+
+
+╭━━ *RANDOM* ━╮
+┃.akira 
+┃.akiyama 
+┃.anna 
+┃.asuna 
+┃.ayuzawa 
+┃.boruto 
+┃.chiho 
+┃.chitoge 
+┃.deidara 
+┃.erza 
+┃.elaina
+┃.eba 
+┃.emilia 
+┃.hestia 
+┃.hinata 
+┃.inori 
+┃.isuzu 
+┃.itachi 
+┃.itori 
+┃.kaga 
+┃.kagura 
+┃.kaori 
+┃.keneki 
+┃.kotori 
+┃.kurumi 
+┃.madara 
+┃.mikasa 
+┃.miku 
+┃.minato 
+┃.naruto 
+┃.nezuko 
+┃.sagiri 
+┃.sasuke 
+┃.sakura 
+┃.cosplay 
+┃.blackpink 
+┃.cristianoronaldo 
+┃.cr7 
+┃.cat 
+┃.itzy 
+┃.kpopitzy 
+┃.kpop 
+┃.loli 
+┃.lolivid 
+┃.lolivideos 
+┃.lolívid 
+┃.meme 
+┃.memes 
+┃.meme2 
+┃.memes2 
+┃.messi 
+┃.neko 
+┃.ppcp 
+┃.ppcouple 
+┃.waifu 
+┃.wpmontaña 
+┃.pubg 
+┃.wpgaming 
+┃.wpaesthetic 
+┃.wprandom 
+┃.coffee 
+┃.pentol 
+┃.caricatura 
+┃.ciberespacio 
+┃.technology 
+┃.doraemon 
+┃.hacker 
+┃.planeta 
+┃.randomprofile 
+┃.wpaesthetic2 
+┃.wpvehiculo 
+┃.wallhp
+┃.wpmoto 
+╰━━━━━━━━━━━━━
+
+
+╭━ *EFECTOS - AUDIOS*━╮
+┃.bass [vn]
+┃.blown [vn]
+┃.deep [vn]
+┃.earrape [vn]
+┃.fast [vn]
+┃.fat [vn]
+┃.nightcore [vn]
+┃.reverse [vn]
+┃.robot [vn]
+┃.slow [vn]
+┃.smooth [vn]
+┃.tupai [vn]
+╰━━━━━━━━━━━━━
+
+
+╭━━ *CREADOR*━━━━╮
+┃.infomenuable <option>
+┃.addprem [@user] <days>
+┃.autoadmin
+┃.backup
+┃.banchat
+┃.listban
+┃.listablock
+┃.banuser
+┃.broadcast <teks>
+┃.bc <teks>
+┃.broadcastgroup <teks>
+┃.bcgc <teks>
+┃.block
+┃.unblock
+┃.broadcastchats <teks>
+┃.bcchats <teks>
+┃.addcmd
+┃.delcmd
+┃.listcmd
+┃.delprem <@user>
+┃>
+┃=>
+┃$
+┃.fetch *<url>* 
+┃.getplugin <texto>
+┃.join [chat.whatsapp.com] [tiempo]
+┃.leave
+┃.restart
+┃.setbotname <teks>
+┃.setppbot
+┃.setprefix [prefix | none | del prefix]
+┃.unbanuser
+┃.update
+┃.addexp
+┃.addlimit
+╰━━━━━━━━━━━━━
+
+
+> © ⍴᥆ᥕᥱrᥱძ ᑲᥡ DEYMOON CLUB`.trim(); // El resto del menú permanece igual
 
       // Enviar el menú con el banner y nombre específico para esta sesión y respondiendo al mensaje
       await conn.sendMessage(m.chat, {
