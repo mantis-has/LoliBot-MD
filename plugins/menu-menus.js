@@ -29,9 +29,7 @@ let tags = {
 }
 
 const defaultMenu = {
-before: `「 %wm 」
- 
-%msg¡Hola! *%name* Soy Félix
+before: `¡Hola! *%name* Soy Makima 
  
 *• %msgFecha:* %fecha
 *• %msgHora:* %hora 
@@ -46,10 +44,10 @@ before: `「 %wm 」
 
 *• %msgRegUser:* %toUserReg de %toUsers
 
-${[`*\`✅ %msg2\`*\nhttps://youtu.be/z2kHwbu8e8s?si=M9iHLdVv7yXe_dvJ`, `%msg3\nhttps://whatsapp.com/channel/0029Vau57ykEwEk5CgosvU3v`, `❤ %msg4\nhttps://www.tiktok.com/@elrebelde.21`].getRandom()}
+${[`*\`✅ %msg2\`*\nhttps://youtu.be/z2kHwbu8e8s?si=M9iHLdVv7yXe_dvJ`, `%msg3\nhttps://whatsapp.com/channel/0029Vau57ykEwEk5CgosvU3v`, `❤ %msg4\nhttps://www.tiktok.com/@felix`].getRandom()}
 
 `.trimStart(),
-  header: ' `<[ %category ]>` ',
+  header: ' `%category',
   body: ' \n%cmd %islimit %isPremium',
   footer: `\n`,
   after: `
