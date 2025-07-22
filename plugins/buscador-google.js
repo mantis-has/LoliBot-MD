@@ -2,7 +2,7 @@
 import axios from 'axios';
 import fetch from 'node-fetch';
 let handler = async (m, { conn, text, command, args, usedPrefix }) => {
-if (!text) throw `⚠️ ${await tr("Que esta buscando?")} 🤔 ${await tr("Escriba lo que quiera buscar")}\n• ${await tr("Ejemplo")}: ${usedPrefix + command} loli`
+if (!text) throw `⚠️ ${await tr("Que esta buscando?")} ${await tr("Escriba lo que quiera buscar")}\n• ${await tr("Ejemplo")}: ${usedPrefix + command} Makii`
 m.react("⌛") 
 try {
 const res = await fetch(`${apis}/search/googlesearch?query=${text}`);
